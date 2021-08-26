@@ -13,3 +13,63 @@ h1,h2
 {
     text-align: center;
 }
+
+header{
+    background-image: url('../img/header.jpg');
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+header h1{
+    background-color: aqua;
+    padding: 10px;
+    width: 300px;
+    height: 50px;
+   
+}
+
+nav {
+    height: 50px;
+    position: fixed;
+    top: 0px;
+    left: 500px;
+    justify-content: center;
+}
+
+nav ol li {
+    display: inline;
+    color: white;
+    padding: 15px;
+    margin: 0px 10px;
+    background-color: rgb(17, 16, 16);
+
+}
+
+article{
+    padding-top: 100px ;
+    background: linear-gradient(red,yellow);
+    width: 80%;
+    margin-left: 10%;
+}
+
+article#Aceite{
+    background: linear-gradient(blue,rgb(51, 49, 49));
+}
+
+nav ol li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ol li:hover {
+    background-color: blueviolet;
+    color: black;
+    box-shadow: 5px 3px 5px;
+    
+}
+
+nav ol li a:hover{
+    color: black;
+}
