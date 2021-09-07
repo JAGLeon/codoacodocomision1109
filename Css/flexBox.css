@@ -1,0 +1,33 @@
+#justify{
+    display: flex;
+   /* justify-content: center;para centrar los hijos */
+   /* justify-content: flex-end; para posicionar al final */
+   /* justify-content: flex-start; el que viene por defecto */
+   /* justify-content: space-around; divide el margen en la mitad para estar en los costados */
+   /* justify-content: space-between; Los orienta hacia los costados */
+      justify-content: space-evenly; /*  le coloca el mismo espacio al principio y al final */
+}
+.primer{
+    /* width: 150px;
+    height: 150px; */
+    background-color: blueviolet;
+}
+
+/* .primer:after{
+    content: "Este es despues del contenido";
+    color: aliceblue;
+    font-size: 20px;
+} Esto es para que no pueda seleccionar el contenido 
+apararece abajo del texto*/
+
+/* .primer:before{
+    content: "Esto es para antes del contenido";
+    color: yellow;
+    font-size: 20px;
+}Esto es para que no pueda seleccionar el contenido 
+apararece despues del texto */
+
+.primer::first-letter{
+    color: blue;
+    font-size: 50px;
+}

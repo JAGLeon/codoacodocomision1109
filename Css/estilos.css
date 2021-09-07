@@ -16,7 +16,7 @@ h1,h2{
 header{
     background-image: url("https://previews.123rf.com/images/anaumenko/anaumenko1608/anaumenko160800133/62396884-ingredientes-para-hornear-en-el-fondo-r%C3%BAstico-vista-superior-banner-de-formato-largo.jpg");
     height: 200px;
-    width:80%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     display:flex;
@@ -24,12 +24,13 @@ header{
 }
 
 header h1{
+  
     color: #000000;
     font-family:"Geneva";
-    font-size: 4em;
-    padding: 90px 0px 0px 0px;
-    width: 600px;
-    height: 70px;
+    font-size: 6em;
+    padding: 40px 0px 0px 0px;
+    width: 800px;
+    height: 30px;
     text-decoration: underline;
 }
 
