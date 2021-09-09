@@ -1,0 +1,17 @@
+nav ol li {
+    color: white;
+    padding: 0px 200px 200px 0px;
+    margin-right: 5px;
+    background-color:red;
+    display: inline;
+}
+
+li#primer{
+    font-size: 3rem;
+    color: yellow;
+}
+
+li#segundo{
+    font-size: 3rem;
+    background-color: black;
+}
